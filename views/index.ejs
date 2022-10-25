@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<div class="container">
+  <div class="nav1">
+    <div class="nav2">
+      <iframe width="1215" height="480" src="https://www.youtube.com/embed/SxOoNpC8qEI" title="Diễm My" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+</body>
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    text-align: center;
+
+  }
+  .container{
+    margin: 5% 9%;
+  }
+
+  .nav1{
+
+    width: 1200px;
+    height: 600px;
+    animation: hieuUng 0.5s ;
+    animation-iteration-count: infinite;
+    background: #000;
+  }
+  .nav2{
+
+    width: 889px;
+    height: 500px;
+    animation: HieuUngBorder2 7s infinite ;
+    position: relative;
+    top: 7%;
+    left: 13%;
+  }
+  iframe{
+    width:889px;
+    height: 500px;
+    margin: 0; padding: 0;
+  }
+  @keyframes hieuUng{
+    0%{
+      border: 10px double blue;        }
+    10%{
+      border: 10px double red;        }
+    20%{
+      border: 10px double violet;        }
+    30%{
+      border: 10px double yellow;        }
+    40%{
+      border: 10px double green;        }
+    50%{
+      border: 10px double cyan;        }
+    60%{
+      border: 10px double gray;        }
+    70%{
+      border: 10px double purple;        }
+    80%{
+      border: 10px double white;        }
+    90%{
+      border: 10px double rgb(0, 255, 13);        }
+    100%{
+      border: 10px double rgb(240, 246, 240);        }
+  }
+
+  @keyframes HieuUngBorder2{
+    0%{
+      border: 10px double rgb(254, 127, 0);        }
+    10%{
+      border: 10px double white;        }
+    20%{
+      border: 10px double rgb(216, 37, 216);        }
+    30%{
+      border: 10px double rgb(236, 71, 71);        }
+    40%{
+      border: 10px double cyan;        }
+    50%{
+      border: 10px double rgb(0, 255, 0);        }
+    60%{
+      border: 10px double rgb(255, 255, 8);        }
+    70%{
+      border: 10px double rgb(4, 34, 255);        }
+    80%{
+      border: 10px double red;        }
+    90%{
+      border: 10px double rgb(0, 255, 4);        }
+    100%{
+      border: 10px double rgb(240, 246, 240);        }
+  }
+
+</style>
+</html>
